@@ -48,7 +48,7 @@ The system should be able to accept a filename as a parameter at the command pro
 
 
 #### Requirements and Project setup:
-- Install NodeJS v12.18.3 LTS
+- Install NodeJS min. v14.17.4
 - run `bin/setup`. It should install the dependencies. Alternatively, run `npm install`.
   The app and tests are ready for use and further development.
 
