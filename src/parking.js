@@ -1,7 +1,7 @@
-const Lot = require('./classes/lot');
-const Spot = require('./classes/spots/spot');
-const Car = require('./classes/vehicles/car');
-const Ticket = require('./classes/tickets/ticket');
+const Lot = require('./entities/lot');
+const Spot = require('./entities/spots/spot');
+const Car = require('./entities/vehicles/car');
+const Ticket = require('./entities/tickets/ticket');
 
 const {
   parkingLotInitError,
@@ -12,7 +12,7 @@ const {
   PARKING_LOT_FULL,
   VEHICLE_ALREADY_PARKED,
   VEHICLE_NOT_FOUND,
-} = require('./classes/constants');
+} = require('./entities/constants');
 
 /**
  * this is the parkingLot instance

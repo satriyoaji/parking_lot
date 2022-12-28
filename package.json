@@ -2,17 +2,20 @@
   "name": "parking_lot_typescript",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx nyc --reporter=lcov ava test/**/*.test.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "satriyoaji27@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.11.17",
+    "ava": "^5.1.0",
     "nodemon": "^2.0.20",
+    "nyc": "^15.1.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
-  }
+  },
+  "dependencies": {}
 }
