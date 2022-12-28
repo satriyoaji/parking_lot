@@ -37,7 +37,7 @@ The system should be able to accept a filename as a parameter at the command pro
     ```
 
 
-#### Notice:
+#### Notes:
 - Having spaces between, before or after the command is accepted.
 - the registration number should be in upper case and/or numbers
 - commands should be in the small case
@@ -51,6 +51,11 @@ The system should be able to accept a filename as a parameter at the command pro
 - Install NodeJS min. v14.17.4
 - run `bin/setup`. It should install the dependencies. Alternatively, run `npm install`.
   The app and tests are ready for use and further development.
+
+
+#### Testing project:
+- Testing method using [NYC library](https://github.com/istanbuljs/nyc) and [AVA](https://github.com/avajs/ava) to help the test runner through JS files, to ease the output expectation, and generate the test coverage.
+- To run all of the tests and generate the test coverage, run `bin/test`. You can find the generated test coverage file in `./coverage/lcov-report/entities`
 
 
 #### Running the application:
