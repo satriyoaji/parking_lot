@@ -61,8 +61,7 @@ The system should be able to accept a filename as a parameter at the command pro
 #### Running the application:
 - The application has two modes of interaction - `cli` and `file`.
 - To run in CLI mode, run `bin/parking_lot`. A prompt `command>` should appear in the console, ready to process commands.
-- To run in file mode just the file path along with either of the commands from the previous step. eg. `bin/parking_lot /examples/input.txt`.
-
+- To run in file mode just the file path along with either of the commands from the previous step. eg. `bin/parking_lot examples/input.txt`.
 
 #### Examples:
 - Example [input file](examples/input.txt) and the [output file](examples/output.txt) generated after running `bin/parking_lot ./examples/input.txt > ./examples/output.txt`
